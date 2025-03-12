@@ -1,0 +1,25 @@
+{
+  "name": "exer-05-mongodb-hfroldan",
+  "version": "1.0.0",
+  "description": "**Name:** Hervé F. Roldan <br/>\r **Degree Program:** B.S. Computer Science <br/>\r **Student number:** 2021 - 08286 <br/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CMSC-100-2S24-25/exer-05-mongodb-hfroldan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CMSC-100-2S24-25/exer-05-mongodb-hfroldan/issues"
+  },
+  "homepage": "https://github.com/CMSC-100-2S24-25/exer-05-mongodb-hfroldan#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "needle": "^3.3.1"
+  }
+}
