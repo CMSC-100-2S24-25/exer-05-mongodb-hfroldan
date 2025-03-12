@@ -93,7 +93,7 @@ const removeStudent = async (req, res) => {
         const student = await Student.findOne({stdnum});
 
         if (!student) {
-            return res.status(404).json({updated: false, message: 'Student not found. Cannot delete record.'})
+            return res.status(404).json({deleted: false, message: 'Student not found. Cannot delete record.'})
         }
 
         const deletedStudent = await Student.deleteOne({stdnum});
